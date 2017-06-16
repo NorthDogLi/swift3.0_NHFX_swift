@@ -1,0 +1,6 @@
+framework module Pods_NHFX_swift {
+  umbrella header "Pods-NHFX_swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

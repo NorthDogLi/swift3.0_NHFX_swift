@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A625CF41EF2236900E07778 /* NHGoodsSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A625CF31EF2236900E07778 /* NHGoodsSectionHeaderView.swift */; };
+		6A625CF81EF274DC00E07778 /* welcome_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A625CF71EF274DC00E07778 /* welcome_launch.png */; };
+		6A9C3AD61EF0CADA001E65E2 /* NHBaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C3AD51EF0CADA001E65E2 /* NHBaseObject.swift */; };
+		6A9C3AD81EF12B90001E65E2 /* NHGoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C3AD71EF12B90001E65E2 /* NHGoodsCell.swift */; };
+		6A9C3ADA1EF1560E001E65E2 /* NHTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C3AD91EF1560E001E65E2 /* NHTools.swift */; };
 		6AE627A51EEF81B300852988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627A41EEF81B300852988 /* AppDelegate.swift */; };
-		6AE627A71EEF81B300852988 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627A61EEF81B300852988 /* ViewController.swift */; };
 		6AE627AA1EEF81B300852988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE627A81EEF81B300852988 /* Main.storyboard */; };
 		6AE627AC1EEF81B300852988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE627AB1EEF81B300852988 /* Assets.xcassets */; };
 		6AE627AF1EEF81B300852988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE627AD1EEF81B300852988 /* LaunchScreen.storyboard */; };
 		6AE627BA1EEF81B300852988 /* NHFX_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627B91EEF81B300852988 /* NHFX_swiftTests.swift */; };
 		6AE627C51EEF81B300852988 /* NHFX_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627C41EEF81B300852988 /* NHFX_swiftUITests.swift */; };
+		6AE627E01EEF820800852988 /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627D31EEF820800852988 /* UIImage+extension.swift */; };
+		6AE627E11EEF820800852988 /* NHGoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627D61EEF820800852988 /* NHGoods.swift */; };
+		6AE627E21EEF820800852988 /* NHGoodsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627D81EEF820800852988 /* NHGoodsHeaderView.swift */; };
+		6AE627E31EEF820800852988 /* NHGoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627D91EEF820800852988 /* NHGoodsViewController.swift */; };
+		6AE627E41EEF820800852988 /* NHHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627DB1EEF820800852988 /* NHHomeViewController.swift */; };
+		6AE627E51EEF820800852988 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627DD1EEF820800852988 /* MainController.swift */; };
+		6AE627E61EEF820800852988 /* NHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627DE1EEF820800852988 /* NHBaseViewController.swift */; };
+		6AE627E71EEF820800852988 /* NHNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627DF1EEF820800852988 /* NHNavigationController.swift */; };
+		6AE627E91EEF822400852988 /* GlobalFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627E81EEF822400852988 /* GlobalFile.swift */; };
+		6AE628161EEFE5AF00852988 /* NHConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE628151EEFE5AF00852988 /* NHConnectionManager.swift */; };
+		71A63E34F2CB1953AA8AE21B /* Pods_NHFX_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2698F0E17CA4541DDC1237A4 /* Pods_NHFX_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2698F0E17CA4541DDC1237A4 /* Pods_NHFX_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHFX_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A625CF31EF2236900E07778 /* NHGoodsSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHGoodsSectionHeaderView.swift; sourceTree = "<group>"; };
+		6A625CF71EF274DC00E07778 /* welcome_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_launch.png; sourceTree = "<group>"; };
+		6A9C3AD51EF0CADA001E65E2 /* NHBaseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHBaseObject.swift; sourceTree = "<group>"; };
+		6A9C3AD71EF12B90001E65E2 /* NHGoodsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHGoodsCell.swift; sourceTree = "<group>"; };
+		6A9C3AD91EF1560E001E65E2 /* NHTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHTools.swift; sourceTree = "<group>"; };
 		6AE627A11EEF81B300852988 /* NHFX_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHFX_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE627A41EEF81B300852988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6AE627A61EEF81B300852988 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6AE627A91EEF81B300852988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6AE627AB1EEF81B300852988 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AE627AE1EEF81B300852988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,18 @@
 		6AE627C01EEF81B300852988 /* NHFX_swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHFX_swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE627C41EEF81B300852988 /* NHFX_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHFX_swiftUITests.swift; sourceTree = "<group>"; };
 		6AE627C61EEF81B300852988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AE627D31EEF820800852988 /* UIImage+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
+		6AE627D61EEF820800852988 /* NHGoods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHGoods.swift; sourceTree = "<group>"; };
+		6AE627D81EEF820800852988 /* NHGoodsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHGoodsHeaderView.swift; sourceTree = "<group>"; };
+		6AE627D91EEF820800852988 /* NHGoodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHGoodsViewController.swift; sourceTree = "<group>"; };
+		6AE627DB1EEF820800852988 /* NHHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHHomeViewController.swift; sourceTree = "<group>"; };
+		6AE627DD1EEF820800852988 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		6AE627DE1EEF820800852988 /* NHBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHBaseViewController.swift; sourceTree = "<group>"; };
+		6AE627DF1EEF820800852988 /* NHNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHNavigationController.swift; sourceTree = "<group>"; };
+		6AE627E81EEF822400852988 /* GlobalFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFile.swift; sourceTree = "<group>"; };
+		6AE628151EEFE5AF00852988 /* NHConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHConnectionManager.swift; sourceTree = "<group>"; };
+		75AEF9A7021C31D3B6A49C71 /* Pods-NHFX_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHFX_swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-NHFX_swift/Pods-NHFX_swift.release.xcconfig"; sourceTree = "<group>"; };
+		85CB9BDAB02F0585DCAEBF9C /* Pods-NHFX_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHFX_swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NHFX_swift/Pods-NHFX_swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A63E34F2CB1953AA8AE21B /* Pods_NHFX_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38ED13F19B4ED226E146FBF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2698F0E17CA4541DDC1237A4 /* Pods_NHFX_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6AE627981EEF81B200852988 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				6AE627B81EEF81B300852988 /* NHFX_swiftTests */,
 				6AE627C31EEF81B300852988 /* NHFX_swiftUITests */,
 				6AE627A21EEF81B300852988 /* Products */,
+				6B5DB9B69DF3AF85C380AEED /* Pods */,
+				38ED13F19B4ED226E146FBF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +141,13 @@
 			isa = PBXGroup;
 			children = (
 				6AE627A41EEF81B300852988 /* AppDelegate.swift */,
-				6AE627A61EEF81B300852988 /* ViewController.swift */,
+				6AE628141EEFE58C00852988 /* Tools */,
+				6AE627D21EEF820800852988 /* Extension */,
+				6AE627D41EEF820800852988 /* MainGoods */,
+				6AE627DA1EEF820800852988 /* MainHome */,
+				6AE627DC1EEF820800852988 /* MainView */,
+				6AE627E81EEF822400852988 /* GlobalFile.swift */,
+				6A625CF71EF274DC00E07778 /* welcome_launch.png */,
 				6AE627A81EEF81B300852988 /* Main.storyboard */,
 				6AE627AB1EEF81B300852988 /* Assets.xcassets */,
 				6AE627AD1EEF81B300852988 /* LaunchScreen.storyboard */,
@@ -125,6 +174,79 @@
 			path = NHFX_swiftUITests;
 			sourceTree = "<group>";
 		};
+		6AE627D21EEF820800852988 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6AE627D31EEF820800852988 /* UIImage+extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6AE627D41EEF820800852988 /* MainGoods */ = {
+			isa = PBXGroup;
+			children = (
+				6AE627D91EEF820800852988 /* NHGoodsViewController.swift */,
+				6AE627D51EEF820800852988 /* GoodsModel */,
+				6AE627D71EEF820800852988 /* GoodsView */,
+			);
+			path = MainGoods;
+			sourceTree = "<group>";
+		};
+		6AE627D51EEF820800852988 /* GoodsModel */ = {
+			isa = PBXGroup;
+			children = (
+				6AE627D61EEF820800852988 /* NHGoods.swift */,
+			);
+			path = GoodsModel;
+			sourceTree = "<group>";
+		};
+		6AE627D71EEF820800852988 /* GoodsView */ = {
+			isa = PBXGroup;
+			children = (
+				6AE627D81EEF820800852988 /* NHGoodsHeaderView.swift */,
+				6A625CF31EF2236900E07778 /* NHGoodsSectionHeaderView.swift */,
+				6A9C3AD71EF12B90001E65E2 /* NHGoodsCell.swift */,
+			);
+			path = GoodsView;
+			sourceTree = "<group>";
+		};
+		6AE627DA1EEF820800852988 /* MainHome */ = {
+			isa = PBXGroup;
+			children = (
+				6AE627DB1EEF820800852988 /* NHHomeViewController.swift */,
+			);
+			path = MainHome;
+			sourceTree = "<group>";
+		};
+		6AE627DC1EEF820800852988 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				6AE627DD1EEF820800852988 /* MainController.swift */,
+				6AE627DE1EEF820800852988 /* NHBaseViewController.swift */,
+				6AE627DF1EEF820800852988 /* NHNavigationController.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		6AE628141EEFE58C00852988 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6AE628151EEFE5AF00852988 /* NHConnectionManager.swift */,
+				6A9C3AD91EF1560E001E65E2 /* NHTools.swift */,
+				6A9C3AD51EF0CADA001E65E2 /* NHBaseObject.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6B5DB9B69DF3AF85C380AEED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85CB9BDAB02F0585DCAEBF9C /* Pods-NHFX_swift.debug.xcconfig */,
+				75AEF9A7021C31D3B6A49C71 /* Pods-NHFX_swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AE627C91EEF81B300852988 /* Build configuration list for PBXNativeTarget "NHFX_swift" */;
 			buildPhases = (
+				589DC37D2E5F1CBAEB383A99 /* [CP] Check Pods Manifest.lock */,
 				6AE6279D1EEF81B300852988 /* Sources */,
 				6AE6279E1EEF81B300852988 /* Frameworks */,
 				6AE6279F1EEF81B300852988 /* Resources */,
+				068D19E707D01A1401C276B3 /* [CP] Embed Pods Frameworks */,
+				8A830077103D4D94F26EE7A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +360,7 @@
 				6AE627AF1EEF81B300852988 /* LaunchScreen.storyboard in Resources */,
 				6AE627AC1EEF81B300852988 /* Assets.xcassets in Resources */,
 				6AE627AA1EEF81B300852988 /* Main.storyboard in Resources */,
+				6A625CF81EF274DC00E07778 /* welcome_launch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +380,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		068D19E707D01A1401C276B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NHFX_swift/Pods-NHFX_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		589DC37D2E5F1CBAEB383A99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A830077103D4D94F26EE7A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NHFX_swift/Pods-NHFX_swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6AE6279D1EEF81B300852988 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AE627A71EEF81B300852988 /* ViewController.swift in Sources */,
+				6AE627E51EEF820800852988 /* MainController.swift in Sources */,
+				6A9C3AD61EF0CADA001E65E2 /* NHBaseObject.swift in Sources */,
+				6AE627E21EEF820800852988 /* NHGoodsHeaderView.swift in Sources */,
+				6AE627E01EEF820800852988 /* UIImage+extension.swift in Sources */,
+				6AE627E11EEF820800852988 /* NHGoods.swift in Sources */,
 				6AE627A51EEF81B300852988 /* AppDelegate.swift in Sources */,
+				6AE627E31EEF820800852988 /* NHGoodsViewController.swift in Sources */,
+				6AE627E61EEF820800852988 /* NHBaseViewController.swift in Sources */,
+				6AE627E41EEF820800852988 /* NHHomeViewController.swift in Sources */,
+				6AE628161EEFE5AF00852988 /* NHConnectionManager.swift in Sources */,
+				6A9C3AD81EF12B90001E65E2 /* NHGoodsCell.swift in Sources */,
+				6A9C3ADA1EF1560E001E65E2 /* NHTools.swift in Sources */,
+				6A625CF41EF2236900E07778 /* NHGoodsSectionHeaderView.swift in Sources */,
+				6AE627E91EEF822400852988 /* GlobalFile.swift in Sources */,
+				6AE627E71EEF820800852988 /* NHNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +599,7 @@
 		};
 		6AE627CA1EEF81B300852988 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CB9BDAB02F0585DCAEBF9C /* Pods-NHFX_swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NHFX_swift/Info.plist;
@@ -419,11 +607,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nanhutravel.www.NHFX-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = /Users/NHFX_swift/Pods;
 			};
 			name = Debug;
 		};
 		6AE627CB1EEF81B300852988 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75AEF9A7021C31D3B6A49C71 /* Pods-NHFX_swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NHFX_swift/Info.plist;
@@ -431,6 +621,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nanhutravel.www.NHFX-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = /Users/NHFX_swift/Pods;
 			};
 			name = Release;
 		};
@@ -507,6 +698,7 @@
 				6AE627CB1EEF81B300852988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AE627CC1EEF81B300852988 /* Build configuration list for PBXNativeTarget "NHFX_swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +707,7 @@
 				6AE627CE1EEF81B300852988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AE627CF1EEF81B300852988 /* Build configuration list for PBXNativeTarget "NHFX_swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +716,7 @@
 				6AE627D11EEF81B300852988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
