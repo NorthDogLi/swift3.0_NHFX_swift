@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A38AEAE1F01FAD20072358E /* ceshi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A38AEAD1F01FAD20072358E /* ceshi.m */; };
 		6A625CF41EF2236900E07778 /* NHGoodsSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A625CF31EF2236900E07778 /* NHGoodsSectionHeaderView.swift */; };
 		6A625CF81EF274DC00E07778 /* welcome_launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A625CF71EF274DC00E07778 /* welcome_launch.png */; };
 		6A9C3AD61EF0CADA001E65E2 /* NHBaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C3AD51EF0CADA001E65E2 /* NHBaseObject.swift */; };
 		6A9C3AD81EF12B90001E65E2 /* NHGoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C3AD71EF12B90001E65E2 /* NHGoodsCell.swift */; };
 		6A9C3ADA1EF1560E001E65E2 /* NHTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C3AD91EF1560E001E65E2 /* NHTools.swift */; };
+		6ABC4A3A1F0111FD007B92ED /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC4A371F0111FD007B92ED /* NSObject+YYModel.m */; };
+		6ABC4A3B1F0111FD007B92ED /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC4A391F0111FD007B92ED /* YYClassInfo.m */; };
+		6ACC9C821EF917EE00D9070E /* JQDic_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC9C811EF917EE00D9070E /* JQDic_Model.swift */; };
 		6AE627A51EEF81B300852988 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE627A41EEF81B300852988 /* AppDelegate.swift */; };
 		6AE627AA1EEF81B300852988 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE627A81EEF81B300852988 /* Main.storyboard */; };
 		6AE627AC1EEF81B300852988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE627AB1EEF81B300852988 /* Assets.xcassets */; };
@@ -50,11 +54,19 @@
 
 /* Begin PBXFileReference section */
 		2698F0E17CA4541DDC1237A4 /* Pods_NHFX_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHFX_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A38AEAB1F01F8FF0072358E /* NHFX_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NHFX_swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		6A38AEAC1F01FAD20072358E /* ceshi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ceshi.h; sourceTree = "<group>"; };
+		6A38AEAD1F01FAD20072358E /* ceshi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ceshi.m; sourceTree = "<group>"; };
 		6A625CF31EF2236900E07778 /* NHGoodsSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHGoodsSectionHeaderView.swift; sourceTree = "<group>"; };
 		6A625CF71EF274DC00E07778 /* welcome_launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_launch.png; sourceTree = "<group>"; };
 		6A9C3AD51EF0CADA001E65E2 /* NHBaseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHBaseObject.swift; sourceTree = "<group>"; };
 		6A9C3AD71EF12B90001E65E2 /* NHGoodsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHGoodsCell.swift; sourceTree = "<group>"; };
 		6A9C3AD91EF1560E001E65E2 /* NHTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NHTools.swift; sourceTree = "<group>"; };
+		6ABC4A361F0111FD007B92ED /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		6ABC4A371F0111FD007B92ED /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		6ABC4A381F0111FD007B92ED /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		6ABC4A391F0111FD007B92ED /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		6ACC9C811EF917EE00D9070E /* JQDic_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQDic_Model.swift; sourceTree = "<group>"; };
 		6AE627A11EEF81B300852988 /* NHFX_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHFX_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE627A41EEF81B300852988 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AE627A91EEF81B300852988 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -113,6 +125,17 @@
 				2698F0E17CA4541DDC1237A4 /* Pods_NHFX_swift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ABC4A351F0111FD007B92ED /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC4A361F0111FD007B92ED /* NSObject+YYModel.h */,
+				6ABC4A371F0111FD007B92ED /* NSObject+YYModel.m */,
+				6ABC4A381F0111FD007B92ED /* YYClassInfo.h */,
+				6ABC4A391F0111FD007B92ED /* YYClassInfo.m */,
+			);
+			path = YYModel;
 			sourceTree = "<group>";
 		};
 		6AE627981EEF81B200852988 = {
@@ -234,6 +257,11 @@
 				6AE628151EEFE5AF00852988 /* NHConnectionManager.swift */,
 				6A9C3AD91EF1560E001E65E2 /* NHTools.swift */,
 				6A9C3AD51EF0CADA001E65E2 /* NHBaseObject.swift */,
+				6ACC9C811EF917EE00D9070E /* JQDic_Model.swift */,
+				6A38AEAC1F01FAD20072358E /* ceshi.h */,
+				6A38AEAD1F01FAD20072358E /* ceshi.m */,
+				6A38AEAB1F01F8FF0072358E /* NHFX_swift-Bridging-Header.h */,
+				6ABC4A351F0111FD007B92ED /* YYModel */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -435,18 +463,22 @@
 			files = (
 				6AE627E51EEF820800852988 /* MainController.swift in Sources */,
 				6A9C3AD61EF0CADA001E65E2 /* NHBaseObject.swift in Sources */,
+				6ABC4A3A1F0111FD007B92ED /* NSObject+YYModel.m in Sources */,
 				6AE627E21EEF820800852988 /* NHGoodsHeaderView.swift in Sources */,
 				6AE627E01EEF820800852988 /* UIImage+extension.swift in Sources */,
 				6AE627E11EEF820800852988 /* NHGoods.swift in Sources */,
+				6ACC9C821EF917EE00D9070E /* JQDic_Model.swift in Sources */,
 				6AE627A51EEF81B300852988 /* AppDelegate.swift in Sources */,
 				6AE627E31EEF820800852988 /* NHGoodsViewController.swift in Sources */,
 				6AE627E61EEF820800852988 /* NHBaseViewController.swift in Sources */,
 				6AE627E41EEF820800852988 /* NHHomeViewController.swift in Sources */,
 				6AE628161EEFE5AF00852988 /* NHConnectionManager.swift in Sources */,
+				6A38AEAE1F01FAD20072358E /* ceshi.m in Sources */,
 				6A9C3AD81EF12B90001E65E2 /* NHGoodsCell.swift in Sources */,
 				6A9C3ADA1EF1560E001E65E2 /* NHTools.swift in Sources */,
 				6A625CF41EF2236900E07778 /* NHGoodsSectionHeaderView.swift in Sources */,
 				6AE627E91EEF822400852988 /* GlobalFile.swift in Sources */,
+				6ABC4A3B1F0111FD007B92ED /* YYClassInfo.m in Sources */,
 				6AE627E71EEF820800852988 /* NHNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +638,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nanhutravel.www.NHFX-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NHFX_swift/Tools/NHFX_swift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = /Users/NHFX_swift/Pods;
 			};
@@ -620,6 +653,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nanhutravel.www.NHFX-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NHFX_swift/Tools/NHFX_swift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				USER_HEADER_SEARCH_PATHS = /Users/NHFX_swift/Pods;
 			};

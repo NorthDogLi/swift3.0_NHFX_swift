@@ -26,7 +26,7 @@ class NHConnectionManager: NSObject {
     }()
     
     //回调成功和失败的 闭包方法
-    func request(Type:ConnectionType, url:String, parames:[String:Any], succeed : @escaping(String?, Any?) ->(), failure:@escaping(String?) ->() ) {
+    func request(Type:ConnectionType, url:String, parames:[String:AnyObject], succeed : @escaping(String?, AnyObject?) ->(), failure:@escaping(String?) ->() ) {
         
         Alamofire.request(url, method:.post, parameters:parames).responseJSON { (retultOb) in
             
@@ -37,7 +37,7 @@ class NHConnectionManager: NSObject {
                 
                 if let value = retultOb.result.value{
                     // 成功闭包
-                    succeed("succeed", value)
+                    succeed("succeed", value as AnyObject)
                 }
                 
             //失败

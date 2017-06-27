@@ -18,6 +18,9 @@ class NHGoodsViewController: NHBaseViewController {
     // 底部刷新
     let footer = MJRefreshAutoNormalFooter()
     
+    var acchiStr : String!
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         //隐藏导航栏
@@ -33,6 +36,10 @@ class NHGoodsViewController: NHBaseViewController {
         
         self.navigationItem.title = "商品"
         view.backgroundColor = UIColor.white
+        
+        acchiStr = nil
+        acchiStr = ""
+        print("-------\(acchiStr!)")
         
         setThisUI()
         
@@ -111,13 +118,13 @@ class NHGoodsViewController: NHBaseViewController {
 extension NHGoodsViewController:UITableViewDelegate,UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return NHGoods.goods.CatalogLis.count
+        return NHGoods.goods.CatalogList.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let list = NHGoods.goods.CatalogLis[section]
+        let list = NHGoods.goods.CatalogList[section]
         
-        return list.Catalog[0].showIndex!
+        return list.Catalogs[0].showIndex
 //        return list.Catalog[0].products.count
     }
     
@@ -125,9 +132,9 @@ extension NHGoodsViewController:UITableViewDelegate,UITableViewDataSource {
 
         let cell:NHGoodsCell = NHGoodsCell.init(style: UITableViewCellStyle.default, reuseIdentifier: Identifier)
         
-        let list = NHGoods.goods.CatalogLis[indexPath.section]
+        let list = NHGoods.goods.CatalogList[indexPath.section]
         
-        cell.updateCellUI(prods: list.Catalog[0].products[indexPath.row])
+        cell.updateCellUI(prods: list.Catalogs[0].Products[indexPath.row])
         
         return cell
     }
@@ -138,15 +145,15 @@ extension NHGoodsViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 
-        let list = NHGoods.goods.CatalogLis[indexPath.section]
+        let list = NHGoods.goods.CatalogList[indexPath.section]
         
-        return list.Catalog[0].products[indexPath.row].cellHeight!
+        return list.Catalogs[0].Products[indexPath.row].cellHeight
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         
-        let list = NHGoods.goods.CatalogLis[section]
-        let sectionView = NHGoodsSectionHeaderView.creatHeaderView(type2: list.type!)
+        let list = NHGoods.goods.CatalogList[section]
+        let sectionView = NHGoodsSectionHeaderView.creatHeaderView(type2: list.type)
         
         sectionView.updateSectionView(list : list)
         
@@ -155,19 +162,19 @@ extension NHGoodsViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         
-        if NHGoods.goods.CatalogLis[section].cellHeight! == 0 {
+        if NHGoods.goods.CatalogList[section].cellHeight == 0 {
             return __Y(y: 44)
         }else {
-            return NHGoods.goods.CatalogLis[section].cellHeight!
+            return NHGoods.goods.CatalogList[section].cellHeight
         }
     }
     //142
     
     func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        let list = NHGoods.goods.CatalogLis[section]
-        let logs = list.Catalog[0];
+        let list = NHGoods.goods.CatalogList[section]
+        let logs = list.Catalogs[0];
         
-        if logs.showIndex == logs.products.count {
+        if logs.showIndex == logs.Products.count {
             return nil
         }else {
             let footView = UIView()
@@ -195,9 +202,9 @@ extension NHGoodsViewController:UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        let list = NHGoods.goods.CatalogLis[section]
-        let logs = list.Catalog[0];
-        if logs.showIndex == logs.products.count {
+        let list = NHGoods.goods.CatalogList[section]
+        let logs = list.Catalogs[0];
+        if logs.showIndex == logs.Products.count {
             return 0.1
         }else {
             return __Y(y: 100)
@@ -205,19 +212,22 @@ extension NHGoodsViewController:UITableViewDelegate,UITableViewDataSource {
     }
     
     func loadMore(btn : UIButton) {
-        let list = NHGoods.goods.CatalogLis[btn.tag]
+        let list = NHGoods.goods.CatalogList[btn.tag]
         
-        let logs = list.Catalog[0];
+        let logs = list.Catalogs[0];
         
-        if (logs.showIndex! + 5 > logs.products.count) {
+        if (logs.showIndex + 5 > logs.Products.count) {
             
-            logs.showIndex = logs.products.count;
+            logs.showIndex = logs.Products.count;
         }else{
             
-            logs.showIndex = logs.showIndex! + 5;
+            logs.showIndex = logs.showIndex + 5;
         }
+        //let nhf:NHGoodsHeaderView = NHGoodsHeaderView()
+        
         print("tag==\(btn.tag)")
-        NHTableView.reloadSections(NSIndexSet(index:btn.tag) as IndexSet, with: UITableViewRowAnimation.none)
+        //NHTableView.reloadSections(NSIndexSet(index:btn.tag) as IndexSet, with: UITableViewRowAnimation.none)
+        NHTableView.reloadData()
     }
 }
 

@@ -30,11 +30,11 @@ class NHGoodsSectionHeaderView: UIView {
     }
     
     
-    func updateSectionView(list : CatalogList) {
+    func updateSectionView(list : CatalogLis) {
         
         titleLabel.text = list.CatalogName
         
-        CatalogName.text = list.Catalog[0].CatalogName
+        CatalogName.text = list.Catalogs[0].CatalogName
         
         self.layoutIfNeeded()
         let height:CGFloat = CatalogName.frame.maxY

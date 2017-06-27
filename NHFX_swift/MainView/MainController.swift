@@ -64,8 +64,8 @@ class MainController: UITabBarController {
         let normalImage = ["goods_normael1", "home_normael1"]
         let selectedImage = ["goods_selected", "home_selected"]
         let VCary = ["NHGoodsViewController", "NHHomeViewController"]
+      
         
-        //var array = [UIViewController]()
         for i in 0..<VCary.count {
             
             let str = VCary[i]
@@ -74,7 +74,6 @@ class MainController: UITabBarController {
             
             if nav != nil {
                 self.addChildViewController(nav!)
-                //array.append(nav!)
             }
             creatBtnWith(Title: titleAry[i], NormalImage: normalImage[i], selectedImage: selectedImage[i], index: i)
         }

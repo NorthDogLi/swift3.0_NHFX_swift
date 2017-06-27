@@ -12,7 +12,7 @@ import UIKit
 class NHGoodsCell: UITableViewCell {
 
     //var type : NHGoodsType
-    var logs = Catalogs()
+    var logs = Catalog()
     
     var addressLabel = UILabel()//目的地
     var startCityLabel = UILabel()//出发地
@@ -75,7 +75,7 @@ class NHGoodsCell: UITableViewCell {
         addSubview(addressLabel)
         addressLabel.font = UIFont.systemFont(ofSize: 14)
 //        addressLabel.backgroundColor = UIColor.yellow
-//        addressLabel.textColor = UIColor.white
+        addressLabel.textColor = UIColor.red
         addressLabel.snp.makeConstraints { (make) in
             make.top.equalTo(3)
             make.left.equalTo(__LEFT)
@@ -152,22 +152,23 @@ class NHGoodsCell: UITableViewCell {
     }
     
     //刷新页面
-    func updateCellUI(prods : Products) {
+    func updateCellUI(prods : Product) {
         
-        let url = NSURL(string: prods.SelImg!)
+        let url = NSURL(string: prods.SelImg)
         //print("url\(prods.SelImg!)")
         backImage.sd_setImage(with: url as URL?, placeholderImage: __setImageName(name: "FF-logo"))
         
         titleLabel.text = prods.Title
-        addressLabel.text = prods.DesCity[0].TagName!
-        startCityLabel.text = prods.StartCity[0].TagName!
-        //Remaining.text = prods.EndTime!
-        priceLabel.text = "现价¥\(prods.Price!)"
-        price_lastLabel.text = "原价¥\(prods.PriceOrg!)"
-        yongjin.text = "佣金:\(prods.Yongjin!)"
+        addressLabel.text = prods.DesCity[0].TagName
+        startCityLabel.text = prods.StartCity[0].TagName
         
-        lookNumber.text = "查看:\(prods.StockNum!)"
-        shareNumber.text = "分享:\(prods.ShareNum!)"
+        //Remaining.text = prods.EndTime!
+        priceLabel.text = "现价¥" + prods.Price
+        price_lastLabel.text = "原价¥" + prods.PriceOrg
+        yongjin.text = "佣金:" + prods.Yongjin
+        
+        lookNumber.text = "查看:" + prods.StockNum
+        shareNumber.text = "分享:" + prods.ShareNum
         
         //边框去除
         for line in lineLayerArray {
@@ -181,7 +182,7 @@ class NHGoodsCell: UITableViewCell {
         prods.cellHeight = height
         
         
-        let YArray = [CGFloat](arrayLiteral: 0.0, 0.0, prods.cellHeight! - 20, prods.cellHeight! - 20)
+        let YArray = [CGFloat](arrayLiteral: 0.0, 0.0, prods.cellHeight - 20, prods.cellHeight - 20)
         
         for i in 0 ... 3 {
             

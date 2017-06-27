@@ -129,9 +129,8 @@ class NHGoodsHeaderView: UIView {
     
     //刷新头部
     func updateHeaderView() {
-        userNameLb.text = NHGoods.goods.shopName!
+        userNameLb.text = NHGoods.goods.shopName
         userTelLb.text = NHGoods.goods.shop_mobile
-        
     }
     
     required init?(coder aDecoder: NSCoder) {

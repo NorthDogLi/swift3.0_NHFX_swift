@@ -9,13 +9,12 @@
 import UIKit
 
 class NHHomeViewController: NHBaseViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.navigationItem.title = "个人"
         view.backgroundColor = UIColor.white
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
